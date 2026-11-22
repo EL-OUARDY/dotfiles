@@ -1,0 +1,20 @@
+[user]
+	name = EL-OUARDY
+	email = contact@wadi3.codes
+[init]
+	defaultBranch = main
+[core]
+	editor = code --wait
+	pager = delta
+[interactive]
+	diffFilter = delta --color-only
+[include]
+	path = ~/.config/delta/catppuccin.gitconfig
+[delta]
+	features = catppuccin-mocha
+	navigate = true
+	line-numbers = true
+[merge]
+	conflictStyle = zdiff3
+[push]
+	autoSetupRemote = true

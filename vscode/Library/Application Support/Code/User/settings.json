@@ -1,0 +1,81 @@
+{
+  // ---------- Theme: Catppuccin Mocha ----------
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "catppuccin.accentColor": "mauve",
+  // Catppuccin's recommended settings
+  "editor.semanticHighlighting.enabled": true,
+  "terminal.integrated.minimumContrastRatio": 1,
+  "window.titleBarStyle": "custom",
+
+  // ---------- Font: JetBrainsMono Nerd Font ----------
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', Menlo, monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.6,
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontLigatures.enabled": true,
+
+  // ---------- Look & feel ----------
+  "workbench.sideBar.location": "right",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.guides.bracketPairs": "active",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.browser.showInTitleBar": true,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "window.customTitleBarVisibility": "windowed",
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+
+  // ---------- Terminals: zsh inside VS Code ----------
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.external.osxExec": "Ghostty.app",
+
+  // ---------- Editing defaults for full-stack work ----------
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc][css][scss][html][markdown][yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
+
+  // ---------- File & folder exclusions ----------
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/node_modules": true,
+  },
+
+  // ---------- Markdown & Plaintext: readable wrapping and visible unusual characters ----------
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.unicodeHighlight.nonBasicASCII": true,
+  },
+  "[plaintext]": {
+    "editor.unicodeHighlight.invisibleCharacters": true,
+    "editor.unicodeHighlight.nonBasicASCII": true,
+  },
+
+  // ---------- JSON: trusted schema sources ----------
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://spec.openapis.org/": true,
+    "https://www.schemastore.org/": true,
+  },
+
+  // ---------- Miscellaneous ----------
+}
