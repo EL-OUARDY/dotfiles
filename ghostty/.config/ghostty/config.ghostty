@@ -24,10 +24,6 @@ mouse-hide-while-typing = true
 # Left Option works as Alt (for Alt shortcuts); right Option still types { } | ~ etc.
 macos-option-as-alt = left
 
-# --- Glass look ---
-background-opacity = 0.92
-background-blur = macos-glass-regular
-
 # --- Developer add-ons ---
 
 # Quick terminal from any app with Cmd+` (needs Accessibility permission)
@@ -49,6 +45,10 @@ notify-on-command-finish-after = 10s
 
 # Shell integration extras: sudo keeps Ghostty's terminfo; ssh sets it up on servers
 shell-integration-features = sudo,ssh-env,ssh-terminfo
+
+# --- Glass look ---
+# background-opacity = 0.92
+# background-blur = macos-glass-regular
 
 # --- Catppuccin-coloured Dock icon (experimental option) ---
 # macos-icon = custom-style

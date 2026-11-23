@@ -7,7 +7,7 @@ return {
     opts = {
       flavour = "mocha",
       term_colors = true, -- Catppuccin colours in Neovim's built-in terminal too
-      transparent_background = true, -- set to true if you enable Ghostty's glass look
+      transparent_background = false, -- set to true if you enable Ghostty's glass look
     },
   },
   -- Tell LazyVim to use it. Use "catppuccin-mocha", not "catppuccin":
