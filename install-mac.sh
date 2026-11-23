@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# install.sh: set up a Mac from this dotfiles repo.
+# install-mac.sh: set up a Mac from this dotfiles repo.
 #
 # Installs Homebrew, everything in the Brewfile (apps, font, CLI tools, VS Code
 # extensions) and the mise tools (Node, Python, pnpm), links every config into
