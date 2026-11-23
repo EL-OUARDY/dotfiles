@@ -37,6 +37,7 @@
 
   // ---------- Git ----------
   "git.enableSmartCommit": true,
+  "git.confirmSync": false,
 
   // ---------- Editing defaults for full-stack work ----------
   "editor.tabSize": 2,
