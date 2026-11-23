@@ -52,6 +52,7 @@ alias lg='lazygit'
 alias vi='nvim'
 alias vim='nvim'
 alias nv='nvim'
+alias dots='cd ~/dotfiles'
 
 # ---------- Syntax highlighting ----------
 source "$HOME/.config/zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh"
