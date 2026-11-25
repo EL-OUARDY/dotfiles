@@ -31,6 +31,9 @@ brew "jq"           # JSON processor
 brew "mise"         # Node/Python/... version manager
 brew "stow"         # dotfiles symlinks
 
+# Media tools
+brew "ffmpeg"       # audio/video conversion and processing
+
 # VS Code extensions
 vscode "catppuccin.catppuccin-vsc"
 vscode "catppuccin.catppuccin-vsc-icons"
